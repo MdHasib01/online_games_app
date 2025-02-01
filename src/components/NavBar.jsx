@@ -47,9 +47,9 @@ const navLinks1 = [
 
 const NavBar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
   return (
-    <nav>
+    <nav className=" top-0 w-full z-50  ">
       <div className="p-4 bg-yellow-400 max-h-[60px] flex align-center justify-between gap-2">
         <div className="flex gap-2 items-center">
           <CiMenuFries
@@ -64,13 +64,13 @@ const NavBar = () => {
         {!isLoggedIn ? (
           <div className="flex gap-2 items-center">
             <button
-              className="bg-[#022D36] text-white px-4 py-1 rounded rounded-md font-semibold flex items-center gap-2"
+              className="bg-[#022D36] text-xs md:text-sm  text-white px-4 py-1 rounded rounded-md font-semibold flex items-center gap-2"
               onClick={() => setIsLoggedIn(true)}
             >
               <CiLogin />
               Login
             </button>
-            <button className="bg-red-600 text-white px-4 py-1 rounded rounded-md font-semibold flex items-center gap-2">
+            <button className="text-xs md:text-sm bg-red-600 text-white px-4 py-1 rounded rounded-md font-semibold flex items-center gap-2">
               <CiLogin />
               Register
             </button>
@@ -99,7 +99,7 @@ const NavBar = () => {
         )}
       </div>
       <div
-        className={`bg-blue-50 px-4 fixed top-0 w-3/4  transition-all duration-300 ease-in-out h-full z-50 ${
+        className={`absolute bg-blue-50 px-4  top-0 w-3/4  transition-all duration-300 ease-in-out h-full z-50 ${
           showMenu ? "left-0" : "-left-full "
         } h-[100vh] overflow-y-scroll overflow-x-hidden`}
         style={{ scrollbarWidth: "none" }}
