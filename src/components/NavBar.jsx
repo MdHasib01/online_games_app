@@ -47,7 +47,7 @@ const navLinks1 = [
 
 const NavBar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
-  const [showMenu, setShowMenu] = useState(true);
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <nav className=" top-0 w-full z-50  ">
       <div className="p-4 bg-yellow-400 max-h-[60px] flex align-center justify-between gap-2">
