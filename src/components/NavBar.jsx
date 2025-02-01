@@ -49,8 +49,8 @@ const NavBar = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <nav className=" top-0 w-full z-50  ">
-      <div className="p-4 bg-yellow-400 max-h-[60px] flex align-center justify-between gap-2">
+    <nav className="  top-0 w-full z-50  ">
+      <div className="sticky top-0 z-50 p-4 bg-yellow-400 max-h-[60px] flex align-center justify-between gap-2">
         <div className="flex gap-2 items-center">
           <CiMenuFries
             className="text-xl font-bold"
