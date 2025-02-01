@@ -1,4 +1,3 @@
-import React from "react";
 import heroImage1 from "../assets/hero/hero-img-1.jpg";
 import heroImage2 from "../assets/hero/hero-img-2.jpg";
 import heroImage3 from "../assets/hero/hero-img-3.jpg";
@@ -8,18 +7,27 @@ import { Carousel, CarouselContent, CarouselItem } from "./ui/carousel";
 const HeroSection = () => {
   return (
     <div>
-      <img src={heroImage1} alt="" />
       <Carousel
         plugins={[
           Autoplay({
-            delay: 2000,
+            delay: 4000,
+            loop: true,
           }),
         ]}
       >
         <CarouselContent>
-          <CarouselItem>...</CarouselItem>
-          <CarouselItem>...</CarouselItem>
-          <CarouselItem>...</CarouselItem>
+          <CarouselItem>
+            <img src={heroImage1} alt="" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src={heroImage2} alt="" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src={heroImage3} alt="" />
+          </CarouselItem>
+          <CarouselItem>
+            <img src={heroImage4} alt="" />
+          </CarouselItem>
         </CarouselContent>
       </Carousel>
     </div>
