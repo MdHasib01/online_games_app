@@ -64,13 +64,13 @@ const NavBar = () => {
         {!isLoggedIn ? (
           <div className="flex gap-2 items-center">
             <button
-              className="bg-[#022D36] text-xs md:text-sm  text-white px-4 py-1 rounded rounded-md font-semibold flex items-center gap-2"
+              className="bg-[#022D36] text-sm md:text-md  text-white px-4 py-1 rounded rounded-md font-semibold flex items-center gap-2"
               onClick={() => setIsLoggedIn(true)}
             >
               <CiLogin />
               Login
             </button>
-            <button className="text-xs md:text-sm bg-red-600 text-white px-4 py-1 rounded rounded-md font-semibold flex items-center gap-2">
+            <button className="text-sm md:text-md bg-red-600 text-white px-4 py-1 rounded rounded-md font-semibold flex items-center gap-2">
               <CiLogin />
               Register
             </button>
