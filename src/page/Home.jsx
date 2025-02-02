@@ -2,6 +2,7 @@ import bgImage from "../assets/bg.jpg";
 import Headline from "../components/Headline";
 import HeroSection from "../components/HeroSection";
 import NavBar from "../components/NavBar";
+import SportsCards from "../components/SportsCards";
 const Home = () => {
   return (
     <div
@@ -15,6 +16,7 @@ const Home = () => {
         <HeroSection />
 
         <Headline />
+        <SportsCards />
       </div>
     </div>
   );
