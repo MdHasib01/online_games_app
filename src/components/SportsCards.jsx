@@ -18,7 +18,7 @@ const SportsCards = () => {
             }
           >
             <IoIosAlarm className="text-4xl mb-q " />
-            <p className="text-xs ">In-Play</p>
+            <p className="text-[10px] ">In-Play</p>
           </div>
           <div
             className={
@@ -26,7 +26,7 @@ const SportsCards = () => {
             }
           >
             <FaCalendarDay className="text-4xl mb-1 " />
-            <p className="text-xs ">Today</p>
+            <p className="text-[10px] ">Today</p>
           </div>
           <div
             className={
@@ -34,7 +34,7 @@ const SportsCards = () => {
             }
           >
             <FaCalendarDays className="text-4xl mb-1 " />
-            <p className="text-xs ">Tomorrow</p>
+            <p className="text-[10px] ">Tomorrow</p>
           </div>
           <div
             className={
@@ -42,7 +42,7 @@ const SportsCards = () => {
             }
           >
             <GiTrophy className="text-4xl mb-1 " />
-            <p className="text-xs ">Leagues</p>
+            <p className="text-[10px] ">Leagues</p>
           </div>
           <div
             className={
@@ -50,7 +50,7 @@ const SportsCards = () => {
             }
           >
             <FaFantasyFlightGames className="text-4xl mb-1 " />
-            <p className="text-xs ">Parlay</p>
+            <p className="text-[10px] ">Parlay</p>
           </div>
         </div>
         <div className="w-full">

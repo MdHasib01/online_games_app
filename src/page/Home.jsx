@@ -11,7 +11,7 @@ const Home = () => {
       }}
       className="min-h-[100vh] bg-no-repeat bg-cover flex justify-center items-center"
     >
-      <div className="bg-yellow-100 w-full max-w-[500px] min-h-[100vh] relative overflow-x-hidden">
+      <div className=" w-full max-w-[500px] min-h-[100vh] relative overflow-x-hidden">
         <NavBar />
         <HeroSection />
 
