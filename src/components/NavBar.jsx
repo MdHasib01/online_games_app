@@ -99,7 +99,7 @@ const NavBar = () => {
         )}
       </div>
       <div
-        className={`absolute bg-blue-50 px-4  top-0 w-3/4  transition-all duration-300 ease-in-out h-full z-50 ${
+        className={`absolute bg-blue-50 px-4  top-0 w-3/4  transition-all duration-300 ease-in-out h-full z-[999] ${
           showMenu ? "left-0" : "-left-full "
         } h-[100vh] overflow-y-scroll overflow-x-hidden`}
         style={{ scrollbarWidth: "none" }}
