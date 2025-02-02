@@ -14,42 +14,42 @@ const SportsCards = () => {
         <div className="bg-white rounded-xl">
           <div
             className={
-              "flex bg-yellow-400 rounded-xl flex-col items-center p-2 text-black mb-1"
+              "flex bg-yellow-400 rounded-xl flex-col items-center py-2 px-1 text-black mb-4"
             }
           >
-            <IoIosAlarm className="text-5xl " />
+            <IoIosAlarm className="text-4xl mb-q " />
             <p className="text-xs ">In-Play</p>
           </div>
           <div
             className={
-              "flex  rounded-xl flex-col items-center p-2 text-gray-500 duration-300 hover:text-black mb-1"
+              "flex text-gray-700 rounded-xl flex-col items-center py-2 px-1 hover:text-black mb-4"
             }
           >
-            <FaCalendarDay className="text-5xl " />
+            <FaCalendarDay className="text-4xl mb-1 " />
             <p className="text-xs ">Today</p>
           </div>
           <div
             className={
-              "flex  rounded-xl flex-col items-center p-2 text-gray-500 duration-300 hover:text-black mb-1"
+              "flex text-gray-700 rounded-xl flex-col items-center py-2 px-1 hover:text-black mb-4"
             }
           >
-            <FaCalendarDays className="text-5xl " />
+            <FaCalendarDays className="text-4xl mb-1 " />
             <p className="text-xs ">Tomorrow</p>
           </div>
           <div
             className={
-              "flex  rounded-xl flex-col items-center p-2 text-gray-500 duration-300 hover:text-black mb-1"
+              "flex text-gray-700 rounded-xl flex-col items-center py-2 px-1 hover:text-black mb-4"
             }
           >
-            <GiTrophy className="text-5xl " />
+            <GiTrophy className="text-4xl mb-1 " />
             <p className="text-xs ">Leagues</p>
           </div>
           <div
             className={
-              "flex  rounded-xl flex-col items-center p-2 text-gray-500 duration-300 hover:text-black mb-1"
+              "flex text-gray-700 rounded-xl flex-col items-center py-2 px-1 hover:text-black mb-4"
             }
           >
-            <FaFantasyFlightGames className="text-5xl " />
+            <FaFantasyFlightGames className="text-4xl mb-1 " />
             <p className="text-xs ">Parlay</p>
           </div>
         </div>
